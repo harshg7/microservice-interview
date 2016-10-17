@@ -74,19 +74,34 @@ The json transformer service is a webservice which accepts a JSON payload (via a
 
 # Challenges
 ## Developer
-TBD
+Your task is to implement the first two apis of the service (`alpha` and `flatten`).  This should be implemented using Maven and either Java or Node.js and must include tests to prove that your service is working correctly.  
+
+_NOTE: Attention should be paid to both happy path and error conditions_
+
+_BONUS: implement the `\status` endpoint_
+
 ## Site Reliability Engineer
-Your task is to write a script which queries the `\status` endpoint and checks for the following conditions
+Your task is to write a script which queries the `\status` endpoint and checks for the following conditions:
+
 1. Memory Usage is >95.0%
 2. Disc Space Available on either disc < 1k
 3. CPU usage is >97.0%
 
-if any of the above conditions are true, the script is to make a call to a fictitious alerting tool which uses HTTP Basic Authentication (use the user name `monitoring` and the password `f0rth3w1n`) and expects a payload as follows:
-```
-TBD
-```
-TBD
+if any of the above conditions are true, the script is to generate an alert in a fictitious alert service.  To generate an alert, one must make an `HTTP POST` to the `/createIncident` endpoint on the alert service.  The service uses HTTP Basic Authentication and otherwise follows the spec for the [PagerDuty Events Trigger API](https://v1.developer.pagerduty.com/documentation/integration/events/trigger).  You can use the following values:
+
+* username `monitoring`
+* password `f0rth3w1n`
+* service_key `abcdefg`  
+
+_NOTE: Make sure you specify the details of the alert in the `details` section of the payload_
+
+_BONUS: Specify the cron expression you would use to enable this query to run every 5 minutes_
+
 ## Test Engineering
-TBD
+Your task is twofold
 
+* Develop a smoke test plan for this service.  The tests should include functional verification as well as error cases.  Your smoke test should be documented in a github README or wiki page.  
+_BONUS: Implement the test plan using a BDD language such as [Gherkin](https://cucumber.io/docs/reference) _
 
+* Implement at least one of the tests you defined in the smoke test plan.  These test(s) should be implemented using Maven and Java
+_BONUS: Test your tests using a mock of the real service_
