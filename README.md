@@ -77,6 +77,7 @@ The json transformer service is a webservice which accepts a JSON payload (via a
 Your task is to implement the first two apis of the service (`alpha` and `flatten`).  This should be implemented using Maven and either Java or Node.js and must include tests to prove that your service is working correctly.  
 
 _NOTE: Attention should be paid to both happy path and error conditions_
+
 _BONUS: implement the `\status` endpoint_
 
 ## Site Reliability Engineer
@@ -93,6 +94,7 @@ if any of the above conditions are true, the script is to generate an alert in a
 * service_key `abcdefg`  
 
 _NOTE: Make sure you specify the details of the alert in the `details` section of the payload_
+
 _BONUS: Specify the cron expression you would use to enable this query to run every 5 minutes_
 
 ## Test Engineering
@@ -102,4 +104,5 @@ Your task is twofold
 * Implement at least one of the tests you defined in the smoke test plan.  These test(s) should be implemented using Maven and Java
 
 _BONUS1: Implement the test plan using a BDD language such as [Gherkin](https://cucumber.io/docs/reference) _
+
 _BONUS2: Test your tests using a mock of the real service_
