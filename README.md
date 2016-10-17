@@ -108,6 +108,6 @@ Your task is twofold
 * Develop a smoke test plan for this service.  The tests should include functional verification as well as error cases.  Your smoke test should be documented in a github README or wiki page.  
 * Implement at least one of the tests you defined in the smoke test plan.  These test(s) should be implemented using Maven and Java
 
-_BONUS1: Implement the test plan using a BDD language such as [Gherkin](https://cucumber.io/docs/reference) _
+_BONUS1: Implement the test plan using a BDD language such as [Gherkin](https://cucumber.io/docs/reference)_
 
 _BONUS2: Test your tests using a mock of the real service_
