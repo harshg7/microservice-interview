@@ -81,9 +81,7 @@ The json transformer service is a webservice which accepts a JSON payload (via a
 
 # Challenges
 ## Developer
-Your task is to implement the first two apis of the service (`alpha` and `flatten`).  This should be implemented using Maven and either Java or Node.js and must include tests to prove that your service is working correctly.  
-
-_NOTE: Attention should be paid to both happy path and error conditions_
+Your task is to implement the first two apis of the service (`alpha` and `flatten`).  This should be implemented using Maven and either Java or Node.js and must include tests to prove that your service is working correctly.  Attention should be paid to both happy path and error conditions as well as documentation of the service.
 
 _BONUS: implement the `\status` endpoint_
 
@@ -100,7 +98,7 @@ if any of the above conditions are true, the script is to generate an alert in a
 * password `f0rth3w1n`
 * service_key `abcdefg`  
 
-_NOTE: Make sure you specify the details of the alert in the `details` section of the payload_
+Make sure you specify the details of the alert in the `details` section of the payload
 
 _BONUS: Specify the cron expression you would use to enable this query to run every 5 minutes_
 
