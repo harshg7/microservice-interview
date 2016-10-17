@@ -67,7 +67,7 @@ The json transformer service is a webservice which accepts a JSON payload (via a
 ```
 
 # General Instructions
-1. Your solution must be implemented as a repo in your personal org (or using a throw away account).  Solutions submitted as jar/zip/etc files via email will not be accepted
+1. Your solution must be implemented as a repo in your personal org (or using a throw away account).  Solutions submitted as jar/zip/etc files via email **will not** be accepted.  Please **do not** fork this repo or submit a pull request with your solution
 2. Your solution must be executeable by someone who clones your repo.  This means that you will likely need to provide instructions on how to execute your code
 3. In cases where not enough information is given, make reasonable assumptions and document your assumptions
 4. Your solution should involve unit tests to validate that your code is working as designed
