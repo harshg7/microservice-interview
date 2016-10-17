@@ -1,6 +1,13 @@
 # CSV X1 Apps Engineering Coding Challenge
 Hello and welcome to the coding challenge for the Comcast Silicon Valley X1 Apps team.  Please choose the appropriate question for the position you are applying for and provide the answer(s) within 24hrs. Please read and follow all instructions (both general and specific to your challenge).  All challenges relate to a fictitious microservice as defined below
 
+* [Product Definition Overview](#overview)
+* [Usage Examples](#examples)
+* [General Instructions](#general-instructions)
+* [Developer Challenge](#developer)
+* [Site Reliability Engineer Challenge](#site-reliability-engineer)
+* [Test Engineer](#test-engineer)
+
 # Product Definition
 ## overview
 The json transformer service is a webservice which accepts a JSON payload (via an HTTP PUT or HTTP POST action) and performs an action on it based on the endpoint the payload is received on.  The JSON transformer service has three endpoints
@@ -97,7 +104,7 @@ _NOTE: Make sure you specify the details of the alert in the `details` section o
 
 _BONUS: Specify the cron expression you would use to enable this query to run every 5 minutes_
 
-## Test Engineering
+## Test Engineer
 Your task is twofold
 
 * Develop a smoke test plan for this service.  The tests should include functional verification as well as error cases.  Your smoke test should be documented in a github README or wiki page.  
