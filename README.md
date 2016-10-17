@@ -1,5 +1,5 @@
 # CSV X1 Apps Engineering Coding Challenge
-Hello and welcome to the coding challenge for the Comcast Silicon Valley X1 Apps team.  Please choose the appropriate question for the position you are applying for and proide the answer(s) within 24hrs. Please read and follow all instructions (both general and specific to your challenge).  All challenges relate to a fictitious microservice as defined below
+Hello and welcome to the coding challenge for the Comcast Silicon Valley X1 Apps team.  Please choose the appropriate question for the position you are applying for and provide the answer(s) within 24hrs. Please read and follow all instructions (both general and specific to your challenge).  All challenges relate to a fictitious microservice as defined below
 
 # Product Definition
 ## overview
@@ -61,7 +61,7 @@ The json transformer service is a webservice which accepts a JSON payload (via a
   "disc-space-avail" : [
                          { "discname" : "/dev/SDA1", "availbytes" : "12345000"},
                          { "discname" : "/dev/SDA2", "availbytes" : "12345000"}
-                       ]
+                       ],
   "cpu-used-pct" : 55.0
 }
 ```
